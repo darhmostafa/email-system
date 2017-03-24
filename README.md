@@ -1,4 +1,4 @@
-# email-system
+# email management system 
 
 <p align="center">
   <img src="https://github.com/devmohamedamr/email-system/blob/master/Public/images/8888.png" width="100"/>
