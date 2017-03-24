@@ -1,0 +1,104 @@
+
+/* start the global code */
+
+body{
+    padding:0;
+    margin:0;
+    direction: rtl;
+}
+
+h2.text-center{
+    display:inline-block;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p{padding:0; margin:0}
+
+a{color:#000; display: block }
+
+a:hover{color:#000; text-decoration: none}
+
+ul{list-style: none; margin:0; padding:0;}
+
+.clearfix{
+	clear: both;
+}
+
+
+
+/* End global code **/
+
+/* start the header */
+
+header{background-color:#f4f4f4; padding:5px 0;}
+
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9{float: right !important ; width:50%} 
+
+header .log a{display: inline-block;margin: 15px 10px}
+
+
+header .social i{
+ 	 width: 40px;
+	height: 40px;
+    border-radius:50%;
+    border:1px solid #ada0a0;
+    color:#ada0a0;
+    margin-top: 20px;
+	margin-left:8px;
+	margin-bottom:10px;
+    vertical-align: middle;
+    line-height: 40px;
+	font-size:17px;
+	float: left;
+}
+
+.social .fa-facebook:hover{color:#5d82d1; border:1px solid #5d82d1;}
+
+header .fa-instagram:hover{color:#4498d5; border:1px solid #4498d5;}
+
+
+
+.social .fa-google-plus:hover{color:#eb6c5b; border:1px solid #eb6c5b;}
+
+header .fa-rss:hover{color:#ff8b02; border:1px solid #ff8b02}
+
+
+/*....................................*/
+
+header .logo img{height:125px;}
+
+/* end the header */
+
+/* start the navigation bar */
+
+.navbar{font-weight:600;margin-bottom:0; height:60px; font-size:17px;}
+
+.navbar-nav>li{float:right; margin-left:5p;padding-top:3px; float: right;margin-right:0; font-weight:600;}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#ff8c05}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{color:#ff8c05}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{width:100%; height:auto }
+
+nav{direction: rtl;}
+
+.carousel-caption{background-color:rgba(0,0,0,.6); margin-bottom:210px; border-radius:15px; padding:30px 5px; border:1px solid #ff8e09}
+
+.carousel-caption h2{font-size: 50px;color:#ff8e09}
+
+.carousel-caption h4{margin-top:23px; font-size:23px;color:#ff8e09}
+
+.navbar-nav>li{
+	flex: right;
+}
+
+
+/* end the navjgation bar */
+
+
+@media (min-width:768px) {
+	.navbar-nav>li{
+		float: right;
+	}
+}

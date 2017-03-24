@@ -1,0 +1,133 @@
+/* start the global code */
+
+body{
+    padding:0;
+    margin:0;
+    direction: rtl;
+    background-color:#f4f4f4;
+}
+
+h2.text-center{
+    display:inline-block;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p{padding:0; margin:0}
+
+a{color:#000; display: block }
+
+a:hover{color:#000; text-decoration: none}
+
+
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: right;
+}
+
+ul{list-style: none; margin:0; padding:0;}
+
+
+@-webkit-keyframes fadeInDown {
+	from {
+		opacity:0;
+		-webkit-transform:translate3d(0,-100%,0);
+		transform:translate3d(0,-100%,0)
+	}
+	to {
+		opacity:1;
+		-webkit-transform:none;
+		transform:none
+	}
+}
+
+/* end the global code */
+
+/* start the header */
+
+header{background-color:#f4f4f4; padding:5px 0;}
+
+header .row > div{float: left !important}
+
+header .log a{display: inline-block;margin: 15px 10px}
+
+header .social i{
+   width:35px; height:35px;
+    border-radius:50%;
+    border:1px solid #ada0a0;
+    color:#ada0a0;
+    margin-top: 20px;
+    vertical-align: middle;
+    line-height: 39px;
+    float: left;
+	font-weight:700;
+    margin-right:10px;
+    font-size: 18px;
+}
+
+
+.social .fa-facebook:hover{color:#5d82d1; border:1px solid #5d82d1;}
+
+header .fa-instagram:hover{color:#4498d5; border:1px solid #4498d5;}
+
+.social .fa-google-plus:hover{color:#eb6c5b; border:1px solid #eb6c5b;}
+
+header .fa-rss:hover{color:#ff8b02; border:1px solid #ff8b02}
+
+
+/*....................................*/
+
+header .logo img{height:125px;}
+
+
+
+/* end the header */
+
+/* start the navigation bar */
+
+.navbar{font-weight:600;margin-bottom:0; height:60px; font-size:17px;}
+
+.navbar-nav>li{float:right; margin-left:5p;padding-top:3px; float: right;margin-right:0}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#ff8c05}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{color:#ff8c05}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{width:100%; height:auto }
+
+nav{direction: rtl;}
+
+/* end the navjgation bar */
+
+/*** start the section about us ***/
+
+.about{
+    padding-top:25px;
+    padding-bottom:20px;
+}
+
+.about h1{color:#ff8e09}
+
+.about img{margin:20px auto; display: block}
+
+/*** end the section about us ***/
+
+/*** start the section master ***/
+
+.masterinst{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.masterinst img{border:2px double #000; border-radius:50%;}
+
+.master h2{margin:0 auto; margin-bottom: 20px; display: block }
+
+.master > div{width:750px; margin:20px auto; background-color:rgba(0,0,0,.7); color:aliceblue; padding:20px 7px; border-radius:5px; text-align: right; padding:10px; font-size:17px}
+
+.master p{line-height:28px;font-weight:600}
+
+.master span{font-size:20px}
+
+.master br{margin-top:10px}
+
+
+/*** end the section master ***/

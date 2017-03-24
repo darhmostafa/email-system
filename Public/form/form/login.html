@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charser="utf-8" />
+        <title>Log In</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+      
+       <link rel="stylesheet" href="../../css/bootstrap.min.css"/>
+       <link rel="stylesheet" href="../../css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/log.css" />
+         <link rel="stylesheet" href="css/header.css"/>
+    </head>
+    <body>
+      
+      	<!---- start section for header  ----->
+     
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="logo col-sm-6">
+                           <a href="../../index.html">
+                            	<img class="img-responsive" src="../../images/logo.png"></img>
+							</a>
+                        </div>
+                        <div class="social col-sm-6 text-center">
+							<div class="log">
+								
+								<a href="login.html">
+									<button class="btn btn-primary">تسجيل</button>
+								</a>
+								
+								<a href="logup.html">
+									<button class="btn btn-success">تسجيل دخول</button>
+								</a>
+							</div>
+							
+                            
+                            	<a href="https://www.facebook.com/معهد-العباسيه-للحاسبات-الاليه-والعلوم-التجاريه-بعزبه-النخل-299673773398138/?fref=ts">
+                            		<i class="fa fa-facebook"></i>
+                            	</a>
+                       
+                            <i class="fa fa-instagram fa-fw"></i>
+                            <i class="fa fa-google-plus fa-lg fa-fw"></i>
+                            <i class="fa fa-rss fa-fw"></i>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                
+            </header>
+            <!-- end the header  -->
+            
+            <!-- start the navigation bar  -->
+            <div>
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile di… -->
+                        <div class="navbar-header">
+                            <button class="navbar-toggle collapsed" aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+                                <span class="sr-only"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!--
+
+                         Collect the nav links, forms, and other content f…
+
+                        -->
+                        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="../../index.html"> الرئيسيه </a>
+                                </li>
+                                <li>
+                                    <a href="../../primarystracture.html"> الهيكل التنظيمى</a>
+                                </li>
+                                <li>
+                                    <a href="#"> الجداول الدراسيه</a>
+                                </li>
+                                <li>
+                                    <a href="#">جــداول الامتحانات </a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us.html"> نـــبذه عن المعهد </a>
+                                </li>
+                                <li>
+                                    <a href="../../recruit/">طلب توظيف </a>
+								</li>
+                            </ul>
+						</div>
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+            <!-- ---- end the navigation bar ----->
+            
+       
+     
+
+            <!--- start section for log in ---->
+
+      <div class="head">
+     	  <div class="overlay">
+			<div class="form-page">
+
+				<!-- Start form -->
+				<form method="post">
+
+					<input type="text" placeholder=" * Enter Username" id="user" onkeyup="userf()" /><label id="lauser"></label><br />
+
+					<input type="password" placeholder=" * Enter pass" id="password" onkeyup="passwordf()" /><label id="lapassword"></label>
+
+					<input id="button" class="btn btn-primary" onclick="btnf()" type="submit" value="send">
+				</form>
+
+
+				<label id="btn"></label>
+				<!-- End form -->
+
+				<!-- Start Footer -->
+				<div class="footer">
+					Copy Rights &copy; 2016 All Rights Reserved For <a href="#">sameh sayed</a>
+				</div>
+				<!-- End Footer -->
+				<script src="../../js/jquery-3.1.0.min.js"></script>
+				<script src="../../js/bootstrap.min.js"></script>
+				<script src="css/log.js"></script>
+			</div>
+		 </div>
+		</div>
+    </body>
+</html>
