@@ -14,6 +14,12 @@
 * [Bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. 
 
 
+## Installation
+
+The Installation is too easy!
+
+composer require email-system/framework
+
 # License 
 The e-mail management system is open-sourced software licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
