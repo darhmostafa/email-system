@@ -2,8 +2,13 @@
 
 <p align="center">
   <img src="https://github.com/devmohamedamr/email-system/blob/master/Public/images/8888.png" width="100"/>
-  [![License](https://poser.pugx.org/email-system/framework/license)](https://packagist.org/packages/email-system/framework)
 </p>
+
+  [![License](https://poser.pugx.org/email-system/framework/license)](https://packagist.org/packages/email-system/framework)
+
+[![Total Downloads](https://poser.pugx.org/email-system/framework/downloads)](https://packagist.org/packages/email-system/framework)
+
+[![Latest Stable Version](https://poser.pugx.org/email-system/framework/v/stable)](https://packagist.org/packages/email-system/framework)
 
 
 <center>The e-mail management system of the abasia Institute was Developed by Team No. 8 </center>
