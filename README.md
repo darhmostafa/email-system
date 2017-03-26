@@ -2,9 +2,9 @@
 
 <p align="center">
   <img src="https://github.com/devmohamedamr/email-system/blob/master/Public/images/8888.png" width="100"/>
+  [![License](https://poser.pugx.org/email-system/framework/license)](https://packagist.org/packages/email-system/framework)
 </p>
 
-<a href="https://packagist.org/packages/email-system/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 
 <center>The e-mail management system of the abasia Institute was Developed by Team No. 8 </center>
 
