@@ -2,7 +2,6 @@
     "name": "email-system/framework",
     "description": "simple email system for PHP.",
     "type": "project",
-     "keywords": ["system", "email"],
     "license": "MIT",
 }
     "authors": [
