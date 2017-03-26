@@ -2,7 +2,11 @@
     "name": "email-system/framework",
     "description": "simple email system for PHP.",
     "type": "project",
+     "keywords": ["system", "email"],
     "license": "MIT",
+        "require": {
+        "php": ">=5.6.4",
+},
     "authors": [
         {
             "name": "mohamed amr",
