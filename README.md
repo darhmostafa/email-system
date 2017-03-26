@@ -35,7 +35,7 @@ The Installation is too easy!
 ```sh
  $ git clone https://github.com/devmohamedamr/email-system.git
 ```
-Download and install Composer
+Download By Composer
 
 ```sh
 composer require email-system/framework
