@@ -3,7 +3,10 @@
     "description": "simple email system for PHP.",
     "type": "project",
     "license": "MIT",
-}
+    "keywords": ["email", "system"],
+    "require": {
+    "php": ">=5.6.4",
+    },
     "authors": [
         {
             "name": "mohamed amr",
