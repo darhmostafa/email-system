@@ -5,8 +5,6 @@
   
   <a href="https://packagist.org/packages/email-system/framework"><img src="https://poser.pugx.org/email-system/framework/license" alt="License"></a>
   
-    <a href="https://packagist.org/packages/email-system/framework"><img src="https://poser.pugx.org/email-system/framework/downloads" alt="Total Downloads"></a>
-
 </p>
 
 
