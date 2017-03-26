@@ -1,8 +1,14 @@
 {
-    "name": "email-system",
-    "description": "simple email system",
-    "require": {
-        "php": "^5.3.3 || ^7.0",
-        "another-vendor/package": "1.*"
-    }
+    "name": "email-system/framework",
+    "description": "simple email system for PHP.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohamed amr",
+            "email": "dev.mohamedamr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
